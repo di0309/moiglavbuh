@@ -1,0 +1,619 @@
+﻿html, body {
+    height: 100%;
+    min-height: 100%;
+}
+
+dl, li, dt, dd, h1, h2, h3, h4, h5, h6, pre, form, body, html, p, blockquote {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    border: 0;
+    vertical-align: top;
+}
+
+.clear {
+    clear: both;
+}
+
+a {
+    color: #ff8000;
+    text-decoration: none;
+}
+
+    a:hover {
+        text-decoration: underline;
+    }
+
+body {
+    background: #fff repeat-x;
+    font-family: "Tahoma", Geneva, sans-serif;
+    font-size: 11px;
+}
+
+h3 {
+    font-size: 16px;
+    font-weight: bold;
+    padding: 8px 0px;
+    color: #ff8000;
+}
+
+input, textarea, select, button {
+    font-size: 100%;
+    color: #000;
+}
+
+    input:focus, textarea:focus {
+        outline: none;
+    }
+
+a:focus {
+    outline: none;
+}
+
+textarea {
+    overflow: auto;
+}
+
+img {
+    vertical-align: top;
+}
+
+section .wrapper {
+    width: 990px;
+    position: relative;
+    margin: 0 auto;
+}
+
+header .headline {
+    float: left;
+    height: 37px;
+    position: relative;
+    width: 990px;
+}
+
+    header .headline ul {
+        float: left;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+
+        header .headline ul li {
+            float: left;
+            padding: 11px 10px;
+            border-right: 1px solid #666;
+        }
+
+            header .headline ul li a {
+                color: #fff;
+            }
+
+            header .headline ul li:first-child {
+                border-left: 1px solid #666;
+            }
+
+header .header {
+    float: left;
+    height: 180px;
+    position: relative;
+}
+
+header .logoline {
+    width: 990px;
+    position: relative;
+    float: left;
+    height: 100px;
+}
+
+header .logo {
+    /*background: url("../img/logo.png") no-repeat;*/
+    width: 370px;
+    height: 120px;
+    float: left;
+    margin: 10px 0px 0px 0px;
+    position: relative;
+    top: 10px;
+}
+
+header .feedback {
+    width: 350px; /*224*/
+    height: 120px;
+    float: right;
+    margin: 30px 0px 0px 0px;
+    font-size: 20px;
+    font-weight: bold;
+    padding-left: 60px;
+    position: relative;
+    left: 60px;
+}
+
+    header .feedback span {
+        font-size: 12px;
+        color: #666;
+        float: left;
+        position: relative;
+        top: 7px;
+    }
+
+    header .feedback a {
+        font-size: 14px;
+        font-weight: 100;
+        float: left;
+    }
+
+header .menu {
+    float: left;
+    width: 996px;
+    position: relative;
+    background: url("../img/menu.png") no-repeat;
+    right: 3px;
+    height: 91px;
+}
+
+    header .menu ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        float: left;
+        position: relative;
+        left: 6px;
+    }
+
+        header .menu ul li {
+            float: left;
+            padding: 32px 17px;
+            background: url("../img/border.png") right no-repeat;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+
+            header .menu ul li:last-child {
+                background: none;
+            }
+
+            header .menu ul li a {
+                color: #696969;
+                text-shadow: 0px 1px 0px #fff;
+            }
+
+header .search {
+    font-size: 12px;
+    float: right;
+    width: 204px;
+    height: 25px;
+    position: relative;
+    top: 5px;
+    color: white;
+    right: 13px;
+}
+
+    header .search input {
+        background: url("../img/search.png") no-repeat;
+        width: 175px;
+        height: 17px;
+        padding: 3px 5px 5px 24px;
+        color: #fff;
+        border: none;
+    }
+
+header .language {
+    float: right;
+    height: 37px;
+    color: #fff;
+    margin: 11px 0px;
+}
+
+    header .language span.red {
+        color: #e42c2c;
+        cursor: pointer;
+    }
+
+header .langlist {
+    float: right;
+    background: #2b2b2b;
+    border-radius: 0px 0px 4px 4px;
+    padding: 10px;
+    margin-top: 12px;
+    position: absolute;
+    z-index: 10;
+    right: 0;
+    display: none;
+    width: 60px;
+}
+
+    header .langlist ul {
+        margin: 0;
+        padding: 0;
+    }
+
+        header .langlist ul li {
+            padding: 3px 0px;
+            float: left;
+            width: 100%;
+            border: none;
+        }
+
+            header .langlist ul li:first-child {
+                border: none;
+            }
+
+section .container {
+    float: left;
+    width: 990px;
+    position: relative;
+    margin-top: 20px;
+    min-height: 600px;
+}
+
+aside .side {
+    float: left;
+    width: 280px;
+    position: relative;
+}
+
+article .main {
+    width: 702px;
+    float: right;
+    position: relative;
+}
+
+footer .footer {
+    background: url('../img/footer.png') repeat-x;
+    width: 100%;
+    height: 138px;
+    float: left;
+}
+
+aside .block {
+    width: 280px;
+    float: left;
+    position: relative;
+    margin-bottom: 13px;
+}
+
+aside .block-head {
+    background: url('../img/block.png') repeat-x;
+    height: 39px;
+    width: 280px;
+    border-radius: 4px 4px 0px 0px;
+}
+
+aside .block-head-grey {
+    background: #9e9e9e;
+    height: 39px;
+    width: 280px;
+    border-radius: 4px 4px 0px 0px;
+}
+
+aside .block-head h3 {
+    float: left;
+    padding: 0;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 12px 8px;
+}
+
+aside .block-head-grey h3 {
+    float: left;
+    padding: 0;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 12px 8px;
+}
+
+aside .block-content {
+    width: 278px;
+    position: relative;
+    left: 1px;
+    float: left;
+    background: #fff url('../img/blockbg.png') center bottom repeat-x;
+    border-radius: 0px 0px 4px 4px;
+    box-shadow: 0px 1px 2px #999;
+}
+
+aside .block-dcont {
+    padding: 11px 8px 10px 8px;
+    font-size: 12px;
+}
+
+    aside .block-dcont p {
+        padding-bottom: 10px;
+    }
+
+aside .feed {
+    float: left;
+    margin-bottom: 13px;
+    position: relative;
+    width: 280px;
+}
+
+aside .push {
+    background: url("../img/feedback.png") no-repeat;
+    width: 280px;
+    height: 39px;
+    float: left;
+}
+
+    aside .push:hover {
+        opacity: 0.8;
+    }
+
+aside .loginrow {
+    float: left;
+    position: relative;
+    width: 260px;
+}
+
+    aside .loginrow input {
+        width: 250px;
+        height: 14px;
+        padding: 5px;
+        border: 1px solid #ccc;
+        font-size: 11px;
+        color: #999;
+        line-height: 14px;
+        margin-bottom: 5px;
+        border-radius: 3px;
+    }
+
+aside .loginup {
+    float: left;
+    margin: 5px 0px 10px 0px;
+    width: 262px;
+}
+
+    aside .loginup button {
+        background: url("../img/enter.png") no-repeat;
+        width: 101px;
+        height: 30px;
+        float: right;
+        border: none;
+        cursor: pointer;
+    }
+
+    aside .loginup span {
+        float: left;
+        margin: 7px 0px 0px 0px;
+    }
+
+        aside .loginup span a {
+            color: #000;
+            text-decoration: underline;
+        }
+
+aside .loginbox {
+    float: left;
+    width: 100%;
+    position: relative;
+    margin-bottom: 13px;
+}
+
+    aside .loginbox ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+
+        aside .loginbox ul li {
+            float: left;
+            display: block;
+            margin: 5px 5px 2px 0px;
+        }
+
+            aside .loginbox ul li a {
+                display: block;
+                background: #ff8000;
+                padding: 5px 9px;
+                border-radius: 4px;
+                color: #fff;
+            }
+
+aside .topic {
+    float: left;
+    width: 100%;
+    position: relative;
+    margin-bottom: 13px;
+    padding-bottom: 7px;
+    border-bottom: 1px solid #ccc;
+}
+
+aside .topic-title {
+    float: left;
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+    aside .topic-title h3 {
+        font-size: 12px;
+        text-transform: uppercase;
+        color: #333;
+        padding: 0;
+    }
+
+aside .topic-img {
+    float: left;
+    overflow: hidden;
+    width: 75px;
+    height: 75px;
+    padding-right: 10px;
+    position: relative;
+}
+
+aside .topic-main {
+    position: relative;
+    font-size: 11px;
+    color: #555;
+    line-height: 11px;
+}
+
+article .image {
+    float: left;
+    width: 702px;
+    box-shadow: 0px 1px 1px #999;
+    border-radius: 4px;
+}
+
+article .news {
+    float: left;
+    width: 702px;
+    position: relative;
+    margin-top: 13px;
+    font-size: 12px;
+}
+
+article .news-title {
+    background: no-repeat;
+    width: 702px;
+    height: 39px;
+}
+
+    article .news-title h1 {
+        font-size: 20px;
+        color: #ff8000;
+        padding: 10px 20px 0px 55px;
+        font-weight: 100;
+    }
+
+article .news-main {
+    float: right;
+    width: 640px;
+    position: relative;
+    right: 15px;
+    margin-top: 13px;
+}
+
+    article .news-main p {
+        padding-top: 5px;
+    }
+
+footer .footer-container {
+    width: 990px;
+    margin: 0 auto;
+}
+
+footer .menu_f {
+    float: left;
+    width: 990px;
+    position: relative;
+    background: url("../img/menu_f.png") no-repeat;
+    height: 41px;
+    border-radius: 4px;
+    margin: 38px 0px 10px 0px;
+}
+
+    footer .menu_f ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        float: left;
+        position: relative;
+        left: 5px;
+    }
+
+        footer .menu_f ul li {
+            float: left;
+            padding: 15px 17px;
+            background: url("../img/border.png") right 5px no-repeat;
+            height: 8px;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+
+            footer .menu_f ul li:last-child {
+                background: none;
+            }
+
+            footer .menu_f ul li a {
+                color: #696969;
+                text-shadow: 0px 1px 0px #fff;
+            }
+
+footer .footer-info {
+    width: 990px;
+    float: left;
+}
+
+footer .logofooter {
+    width: 175px;
+    height: 48px;
+    background: url("../img/logof.png") no-repeat;
+    float: left;
+    position: relative;
+    top: -10px;
+}
+
+footer .finfo {
+    float: right;
+}
+
+article .register {
+    float: left;
+    position: relative;
+    width: 100%;
+}
+
+article .regrow {
+    width: 100%;
+    float: left;
+    padding-bottom: 7px;
+    margin-bottom: 7px;
+    border-bottom: 1px dotted #ccc;
+}
+
+    article .regrow label {
+        float: left;
+        position: relative;
+        top: 6px;
+    }
+
+    article .regrow input {
+        float: right;
+        width: 300px;
+        height: 14px;
+        padding: 5px;
+        border: 1px solid #ccc;
+        border-radius: 3px;
+    }
+
+    article .regrow textarea {
+        float: right;
+        width: 300px;
+        min-height: 100px;
+        padding: 5px;
+        border: 1px solid #ccc;
+        border-radius: 3px;
+    }
+
+    article .regrow button {
+        background: #b23636;
+        border: none;
+        padding: 5px 9px;
+        border-radius: 4px;
+        color: #fff;
+        cursor: pointer;
+        float: left;
+    }
+
+    article .regrow a {
+        background: #b23636;
+        border: none;
+        padding: 5px 9px 6px 9px;
+        border-radius: 4px;
+        color: #fff;
+        cursor: pointer;
+        float: left;
+        margin: 2px 0px 0px 5px;
+    }
+
+article .errors {
+    background: #ededed;
+    border-radius: 4px;
+    padding: 8px;
+    margin-top: 13px;
+    float: left;
+    width: 686px;
+}
